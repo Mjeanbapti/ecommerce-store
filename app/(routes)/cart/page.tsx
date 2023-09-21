@@ -14,6 +14,7 @@ const CartPage = () => {
     }, []);
 
     const cart = useCart();
+    
     if (!isMounted) {
         return null;
     }
